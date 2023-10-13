@@ -1,0 +1,104 @@
+
+@media (max-width: 767px){
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .top {
+        height: 735px;
+        padding-top: 237px;
+
+        &__content{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        &__title {
+            width: 343px;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 39px;
+            text-align: center;
+            }
+
+            &__text {
+                width: 343px;
+                font-weight: 300;
+                font-size: 14px;
+                line-height: 22px;
+                text-align: center;
+            }    
+    }
+
+    .games__box {
+        width: 767px;
+        background-size: cover;
+    } 
+
+    .seasons{
+        padding-top: 51px;
+        padding-bottom: 85px;
+        display: flex;
+        flex-direction: column; 
+                &__content{
+                    display: flex;
+                    align-items: center;
+                    padding-bottom: 64px;
+                }
+
+                &__title {
+                    font-size: 32px;
+                    line-height: 39px;
+                }
+
+                &__text {
+                    width: 343px;
+                    font-size: 14px;
+                    line-height: 22px;
+                    text-align: center;
+                }
+
+                &__img{
+                    width: 344px;
+                    height: 236px;
+                }
+    }
+
+    .remember {
+        padding-top: 51px;
+        padding-bottom: 91px;
+        display: flex;
+        flex-direction: column-reverse;
+
+                &__content{
+                    display: flex;
+                    align-items: center;
+                    padding-bottom: 64px;
+                }
+                &__title{
+                    font-size: 32px;
+                    line-height: 39px;
+                }
+                &__text{
+                    width: 343px;
+                    font-size: 14px;
+                    line-height: 22px;
+                    text-align: center;
+                }
+
+                &__img{
+                    width: 344px;
+                    height: 231px;
+                }
+    }
+}
+
+@media (max-width: 720px) {
+    .top {
+        background: url(../img/Rectangle-mobile.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+}
